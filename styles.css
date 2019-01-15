@@ -1,0 +1,93 @@
+#mysketch {
+  /*background-color: #be42d5;*/
+  width: 800px;
+  height: 250px;
+  /*border: 1px solid #8d7490;
+  /*width: 100%;
+  /*margin-right: 20%;*/
+  margin: auto;
+}
+
+body {
+  background-image: url("images/background.jpg");
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+  max-width: 100%;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 3%;
+}
+
+header h1 {
+  margin-left: 24%;
+  font-size: 30px;
+  color: #4e4f4f;
+  padding-top: 25px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #4e4f4f;
+  border-bottom: 1px solid #afafaf;
+  /*background-color: lightgrey;*/
+}
+
+.mygrid {
+  display: grid;
+  grid-template-columns: 25% 15% 15% 15%;
+  grid-template-rows: 20% 20%;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+  /*background-color: yellow;*/
+  margin: auto;
+}
+
+.studios {
+  grid-row: 1;
+  grid-column: 2/3;
+}
+
+.research {
+  grid-row: 1;
+  grid-column: 3/4;
+}
+
+.development {
+  grid-column: 4/5;
+  grid-row: 1;
+}
+
+a {
+  color: #288abd;
+  text-decoration: none;
+  font-family: 'universe', sans-serif;
+  font-size: 14px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 50, 0.2);
+  text-align: center;
+  padding-top: 36px;
+}
