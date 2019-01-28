@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey about Cultural Differences</title>
+  <!--add normalize css before the style css-->
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <!--add the link to js here-->
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>-->
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Survey on the topic of cultural differnces</h1>
+  </header>
+  <form>
+
+    <fieldset>
+      <label for="Home Country">Home Country:</label>
+      <input type="text" name="HomeCountry" id="Home Country" required>
+    </fieldset>
+
+    <fieldset id="first">
+      <label for="first">How long have you been here in United States?</label>
+
+      <div>
+        <input name="first" type="radio" value="Less than a year">
+        <label class="top">Less than a year</label>
+        <br>
+
+        <input name="first" type="radio" value="1 to 3 years">
+        <label>1 to 3 years</label>
+        <br>
+
+        <input name="first" type="radio" value="3 to 5 years">
+        <label>3 to 5 years</label>
+        <br>
+
+        <input name="first" type="radio" value="More than 5 years">
+        <label>More than 5 years</label>
+      </div>
+    </fieldset>
+
+    <fieldset id="second">
+      <label for="second">What was your first impression of United States?</label>
+
+      <div>
+        <input name="second" type="radio" value="Excited">
+        <label class="top">Excited</label>
+        <br>
+
+        <input name="second" type="radio" value="Anxious">
+        <label>Anxious</label>
+        <br>
+
+        <input name="second" type="radio" value="Helpless">
+        <label>Helpless</label>
+        <br>
+
+        <input name="second" type="radio" value="Lonely">
+        <label>Lonely</label>
+      </div>
+    </fieldset>
+
+    <fieldset id="third">
+      <label for="third">How often, if at all do you feel strain from the effort to adapt to a new culture?</label>
+
+      <div>
+        <input name="third" type="radio" value="Most of the time">
+        <label class="top">Most of the time</label>
+        <br>
+
+        <input name="third" type="radio" value="Ocassionally">
+        <label>Ocassionally</label>
+        <br>
+
+        <input name="third" type="radio" value="Not at all">
+        <label>Not at all</label>
+        <br>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div>
+        <input type="reset" name="reset" value="Reset">
+        <input type="submit" name="submit" value="Submit!">
+      </div>
+    </fieldset>
+
+  </form>
+  <footer>
+    <p>Email<a href="mailto:&#112;&#109;&#097;&#115;&#111;&#117;&#100;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">
+        &#112;&#109;&#097;&#115;&#111;&#117;&#100;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a> |
+      <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+  </footer>
+  <!--add link to the script.js here -->
+  <script src="script.js"></script>
+</body>
+
+</html>

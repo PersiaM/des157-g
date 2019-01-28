@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+label {
+  color: #a4a4a4;
+  font-size: 14px;
+}
+
+fieldset {
+  border: none;
+  padding-bottom: 5%;
+}
+
+.top {
+  margin-top: 3%;
+}
+
+input[type="text"],
+textarea {
+  width: 60%;
+  border-radius: 4px;
+}
+
+div label {
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+h1 {
+  margin: auto;
+  width: 40%;
+  color: #c8c8c8;
+  padding-top: 20%;
+}
+
+form {
+  margin: auto;
+  width: 40%;
+  margin-top: 5%;
+  border: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  width: auto;
+  padding: 5px;
+  border: 0px;
+  border-radius: 4px;
+  margin-right: 2%;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  background: #c2ba7d;
+  color: #333;
+}
+
+a {
+  color: #9b9d63;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
