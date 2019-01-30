@@ -5,6 +5,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  margin-bottom: 10%;
+}
+
+.mygrid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 1fr;
 }
 
 label {
@@ -23,8 +29,10 @@ fieldset {
 
 input[type="text"],
 textarea {
-  width: 60%;
-  border-radius: 4px;
+  width: 100%;
+  border: 0px;
+  border-radius: 5px;
+  background-color: rgb(212, 212, 212);
 }
 
 div label {
@@ -40,16 +48,15 @@ h1 {
 }
 
 form {
-  margin: auto;
-  width: 40%;
   margin-top: 5%;
   border: none;
+  grid-column: 2;
 }
 
 input[type="submit"],
 input[type="reset"] {
   width: auto;
-  padding: 5px;
+  padding: 5px 12px;
   border: 0px;
   border-radius: 4px;
   margin-right: 2%;
@@ -62,6 +69,22 @@ input[type="reset"] {
 
 a {
   color: #9b9d63;
+}
+
+#msgSection {
+  padding: 2em;
+  border-radius: 12px;
+  margin-left: 5%;
+  background-color: rgb(66, 66, 66, 0.7);
+  color: white;
+  grid-column: 3;
+  grid-row: 1;
+  line-height: 25px;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 2s;
 }
 
 footer {

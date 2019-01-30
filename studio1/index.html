@@ -18,35 +18,53 @@
   <header>
     <h1>Survey on the topic of cultural differnces</h1>
   </header>
-  <form>
 
-    <fieldset>
-      <label for="Home Country">Home Country:</label>
-      <input type="text" name="HomeCountry" id="Home Country" required>
-    </fieldset>
+  <div class="mygrid">
+    <form>
 
-    <fieldset id="first">
-      <label for="first">How long have you been here in United States?</label>
+      <fieldset>
+        <label for="homeCountry">Home Country:</label>
+        <input type="text" name="homeCountry" id="homeCountry" required>
+      </fieldset>
+
+      <fieldset>
+        <label for="howLong">How long have you been here in United States?</label>
+        <input type="text" name="howLong" id="howLong" required>
+      </fieldset>
+
+      <fieldset>
+        <label for="impression">What was your first impression of United States?</label>
+        <input type="text" name="impression" id="impression" required>
+      </fieldset>
+
+      <fieldset>
+        <label for="strain">How often, if at all, do you feel strain from the effort to adapt to a new culture?</label>
+        <input type="text" name="strain" id="strain" required>
+      </fieldset>
+
+
+      <!--<fieldset id="howLong">
+      <label>How long have you been here in United States?</label>
 
       <div>
-        <input name="first" type="radio" value="Less than a year">
-        <label class="top">Less than a year</label>
+        <input id="under1" name="howLong" type="radio" value="Less than a year ago">
+        <label for="under1" class="top">Less than a year</label>
         <br>
 
-        <input name="first" type="radio" value="1 to 3 years">
-        <label>1 to 3 years</label>
+        <input id="oneThree" name="howLong" type="radio" value="1 to 3 years ago">
+        <label for="oneThree">1 to 3 years</label>
         <br>
 
-        <input name="first" type="radio" value="3 to 5 years">
-        <label>3 to 5 years</label>
+        <input id="threeFive" name="howLong" type="radio" value="3 to 5 years ago">
+        <label for="threeFive">3 to 5 years</label>
         <br>
 
-        <input name="first" type="radio" value="More than 5 years">
-        <label>More than 5 years</label>
+        <input id="more5" name="howLong" type="radio" value="More than 5 years ago">
+        <label for="more5">More than 5 years</label>
       </div>
-    </fieldset>
+    </fieldset>-->
 
-    <fieldset id="second">
+      <!--<fieldset id="second">
       <label for="second">What was your first impression of United States?</label>
 
       <div>
@@ -65,10 +83,10 @@
         <input name="second" type="radio" value="Lonely">
         <label>Lonely</label>
       </div>
-    </fieldset>
+    </fieldset>-->
 
-    <fieldset id="third">
-      <label for="third">How often, if at all do you feel strain from the effort to adapt to a new culture?</label>
+      <!--<fieldset id="third">
+      <label for="third">How often, if at all, do you feel strain from the effort to adapt to a new culture?</label>
 
       <div>
         <input name="third" type="radio" value="Most of the time">
@@ -83,16 +101,23 @@
         <label>Not at all</label>
         <br>
       </div>
-    </fieldset>
+    </fieldset>-->
 
-    <fieldset>
-      <div>
-        <input type="reset" name="reset" value="Reset">
-        <input type="submit" name="submit" value="Submit!">
-      </div>
-    </fieldset>
+      <fieldset>
+        <div>
+          <input type="reset" name="reset" value="reset" id="r">
+          <input type="submit" name="submit" value="submit" id="s">
+        </div>
+      </fieldset>
 
-  </form>
+    </form>
+
+    <section id="msgSection" class="hide">
+      <p id="myMsg"></p>
+    </section>
+
+  </div>
+
   <footer>
     <p>Email<a href="mailto:&#112;&#109;&#097;&#115;&#111;&#117;&#100;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">
         &#112;&#109;&#097;&#115;&#111;&#117;&#100;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a> |
