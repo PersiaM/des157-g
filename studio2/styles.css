@@ -1,14 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url("images/background2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  /* background-image: url("images/background2.jpg"); */
   background-color: black;
 }
 
-.background{
+.background {
   /* position: sticky; */
   /* position: -webkit-sticky; */
   /* top: 0; */
@@ -25,7 +21,7 @@ body {
 .rectangle {
   height: 100px;
   width: 100px;
-  background-color: yellow;
+  /* background-color: yellow; */
   position: absolute;
   top: 95px;
   left: 340px;
@@ -33,29 +29,39 @@ body {
 
 #overlay {
   display: none;
+  -webkit-transition: 2s;
+  transition: 2s;
+  transition-delay: 1s;
 }
 
+/* desktop view */
 @media only screen and (min-width: 769px) {
+  body {
+    background-image: url("images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
 .container {
   display: grid;
   grid-template-columns: 10% 30% 30% 30% 10%;
   grid-template-rows: 15% 10% 10% 12% 17%;
   grid-column-gap: 4%;
   grid-row-gap: 2%;
-  /* background-color: rgb(247, 247, 247, 0.2); */
+  background-color: rgb(221, 221, 221, 0.6);
   padding-top: 10%;
   padding-left: 6%;
   width: 100%;
-
 }
-
 
 .a {
   grid-column: 1/ 2;
   grid-row: 1;
+  -webkit-transition-timing-function: ease-in;
 }
-
-
 
 .b {
   grid-column: 3/ 4;
@@ -97,5 +103,4 @@ footer {
   text-align: center;
   font-size: 12px;
   color: white;
-}
 }
