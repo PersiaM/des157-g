@@ -8,6 +8,8 @@
   <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -22,12 +24,12 @@
 
   <section id="overlay">
     <section class="container">
-      <div class="a" id="jfk"><img src="images/jfk.jpg" alt="arrival"></div>
-      <div class="b" id="airport"><img src="images/airport.jpg" alt="arrival"></div>
-      <div class="c"><img src="images/flight.jpg" alt="arrival"></div>
-      <div class="d"><img src="images/hotel.jpg" alt="arrival"></div>
-      <div class="e"><img src="images/room1.jpg" alt="arrival"></div>
-      <div class="f"><img src="images/room2.jpg" alt="arrival"></div>
+      <div class="a" id="jfk" data-aos="zoom-in-right" data-aos-easing="linear"><img src="images/jfk.jpg" alt="arrival"></div>
+      <div class="b" id="airport" data-aos="zoom-in-left" data-aos-easing="linear"><img src="images/airport.jpg" alt="arrival"></div>
+      <div class="c" data-aos="fade-down-left"><img src="images/flight.jpg" alt="arrival"></div>
+      <div class="d" data-aos="zoom-in"><img src="images/hotel.jpg" alt="arrival"></div>
+      <div class="e" data-aos="zoom-in"><img src="images/room1.jpg" alt="arrival"></div>
+      <div class="f" data-aos="zoom-in"><img src="images/room2.jpg" alt="arrival"></div>
 
     </section>
   </section>
@@ -45,6 +47,7 @@
   </footer>
   <!--add link to the script.js here -->
   <script src="script.js"></script>
+
 </body>
 
 </html>
