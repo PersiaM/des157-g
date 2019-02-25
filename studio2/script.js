@@ -9,5 +9,5 @@ rectangle.addEventListener('click', function() {
 }, false);
 
 AOS.init({
-  duration: 2000,
+  duration: 3000,
 })
